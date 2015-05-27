@@ -22,15 +22,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="C:/Libraries/include" />
-			<Add directory="C:/Libraries/lib" />
 		</Compiler>
-		<Linker>
-			<Add option="-lalleg" />
-			<Add option="-lalpng" />
-			<Add library="C:\Libraries\lib\liballeg.a" />
-			<Add library="C:\Libraries\lib\libalpng.a" />
-		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
